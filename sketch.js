@@ -97,7 +97,7 @@ function draw() {
   //creating continous opponent players
   var select_oppPlayer = Math.round(random(1,3));
   
-  if (World.frameCount % 150 == 0) {
+  if (World.frameCount % 15 == 0) {
     if (select_oppPlayer == 1) {
       pinkCyclists();
     } else if (select_oppPlayer == 2) {
